@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fake Netflix </title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: black;
+            color: white;
+        }
+
+        .header {
+            padding: 20px;
+        }
+
+        .logo {
+            color: red;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .main {
+            text-align: center;
+            padding: 100px 20px;
+            background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/7c3f6b9e-5a0a-4b6b-8b90-1bbfd3c37f4c/0b1a5f61-7b9e-4c50-a1c8-2c4b7b29ea62/IN-en-20231009-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+            background-size: cover;
+        }
+
+        .main h1 {
+            font-size: 40px;
+        }
+
+        .main p {
+            font-size: 20px;
+        }
+
+        .btn {
+            background-color: red;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            font-size: 18px;
+        }
+
+        .movies {
+            padding: 20px;
+        }
+
+        .row img {
+            width: 200px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="logo">NETFLIX</div>
+    </div>
+
+    <div class="main">
+        <h1>Unlimited movies, TV shows and more</h1>
+        <p>Watch anywhere. Cancel anytime.</p>
+        <button class="btn">Get Started</button>
+    </div>
+
+    <div class="movies">
+        <h2>Popular on Netflix</h2>
+
+        <div class="row">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpzT0KCj3xFEEmbs8fS7andoLlj_eX8Yv3zA&s">
+            <img src="https://external-preview.redd.it/s1-spoilers-arcane-season-2-animated-poster-by-me-v0-MWNodzhyc2gzZTRkMf1z_8DUtnG012UdPDFiL37NqkWiDzhoFeYbvLiBcnJH.png?format=pjpg&auto=webp&s=9b86085513b0fd6aa2b549d279ac0bf46728880e">
+            <img src="https://mlpnk72yciwc.i.optimole.com/cqhiHLc.IIZS~2ef73/w:auto/h:auto/q:75/https://bleedingcool.com/wp-content/uploads/2025/03/GlrrP8ZW8AAAQPg.jpg">
+            <img src="https://m.media-amazon.com/images/M/MV5BOWJjMGViY2UtNTAzNS00ZGFjLWFkNTMtMDBiMDMyZTM1NTY3XkEyXkFqcGc@._V1_.jpg">
+            <img src="https://www.hollywoodreporter.com/wp-content/uploads/2024/12/You-season-5-poster-1-H-2024.png?w=1000">
+            <img src="https://m.media-amazon.com/images/M/MV5BMDE1NjNmZjgtZTg0OC00NjkxLWEzYzItMDNkMTc3YjgxZWQyXkEyXkFqcGc@._V1_.jpg">
+            <img src="https://m.media-amazon.com/images/I/81TUfw3vc7L.jpg">
+
+        </div>
+    </div>
+
+</body>
+</html
